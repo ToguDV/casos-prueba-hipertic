@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20201105 03:52:14.255" rpa="false">
+<suite id="s1" name="CP001" source="C:\Users\cesar\PycharmProjects\prueba2\TestCases\CP001.ROBOT">
+<test id="s1-t1" name="CP001 Hacer un registro llenando todos los campos obligatorios">
+<kw name="Set Screenshot Directory" library="Selenium2Library">
+<doc>Sets the directory for captured screenshots.</doc>
+<arguments>
+<arg>C:/Users/cesar/PycharmProjects/prueba2/TestCases/registro</arg>
+</arguments>
+<status status="PASS" starttime="20201105 03:52:14.515" endtime="20201105 03:52:14.515"></status>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://localhost:8080/Crud-java-web-oracle-Cesar/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20201105 03:52:14.515" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/Crud-java-web-oracle-Cesar/'.</msg>
+<status status="PASS" starttime="20201105 03:52:14.515" endtime="20201105 03:52:18.540"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div/div/div/form/div[5]/a[1]</arg>
+</arguments>
+<status status="PASS" starttime="20201105 03:52:18.541" endtime="20201105 03:52:18.575"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div/div/div/form/div[5]/a[1]</arg>
+</arguments>
+<msg timestamp="20201105 03:52:18.580" level="INFO">Clicking element 'xpath=/html/body/div/div/div/div/form/div[5]/a[1]'.</msg>
+<status status="PASS" starttime="20201105 03:52:18.580" endtime="20201105 03:52:19.150"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>oulxdasdasa.png</arg>
+</arguments>
+<msg timestamp="20201105 03:52:19.512" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="registro/oulxdasdasa.png"&gt;&lt;img src="registro/oulxdasdasa.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201105 03:52:19.150" endtime="20201105 03:52:19.512"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20201105 03:52:22.515" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20201105 03:52:19.513" endtime="20201105 03:52:22.516"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div/div/form/div[2]/input</arg>
+<arg>usuario11</arg>
+</arguments>
+<msg timestamp="20201105 03:52:22.518" level="INFO">Typing text 'usuario11' into text field 'xpath=/html/body/div/div/div/form/div[2]/input'.</msg>
+<status status="PASS" starttime="20201105 03:52:22.517" endtime="20201105 03:52:22.629"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div/div/form/div[3]/input</arg>
+<arg>cxzcxz@gmail.com</arg>
+</arguments>
+<msg timestamp="20201105 03:52:22.630" level="INFO">Typing text 'cxzcxz@gmail.com' into text field 'xpath=/html/body/div/div/div/form/div[3]/input'.</msg>
+<status status="PASS" starttime="20201105 03:52:22.630" endtime="20201105 03:52:22.746"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div/div/form/div[4]/input</arg>
+<arg>cxzcxzz</arg>
+</arguments>
+<msg timestamp="20201105 03:52:22.747" level="INFO">Typing text 'cxzcxzz' into text field 'xpath=/html/body/div/div/div/form/div[4]/input'.</msg>
+<status status="PASS" starttime="20201105 03:52:22.746" endtime="20201105 03:52:22.836"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div/div/form/div[5]/input</arg>
+<arg>1234+1234</arg>
+</arguments>
+<msg timestamp="20201105 03:52:22.837" level="INFO">Typing text '1234+1234' into text field 'xpath=/html/body/div/div/div/form/div[5]/input'.</msg>
+<status status="PASS" starttime="20201105 03:52:22.837" endtime="20201105 03:52:22.924"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div/div/form/div[6]/input</arg>
+<arg>1234+1234</arg>
+</arguments>
+<msg timestamp="20201105 03:52:22.925" level="INFO">Typing text '1234+1234' into text field 'xpath=/html/body/div/div/div/form/div[6]/input'.</msg>
+<status status="PASS" starttime="20201105 03:52:22.925" endtime="20201105 03:52:23.013"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20201105 03:52:28.025" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20201105 03:52:23.014" endtime="20201105 03:52:28.025"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div/div/form/div[7]/input</arg>
+</arguments>
+<msg timestamp="20201105 03:52:28.025" level="INFO">Clicking element 'xpath=/html/body/div/div/div/form/div[7]/input'.</msg>
+<status status="PASS" starttime="20201105 03:52:28.025" endtime="20201105 03:52:28.381"></status>
+</kw>
+<kw name="Element Text Should Be" library="Selenium2Library">
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<arguments>
+<arg>//p[@class='text-danger']</arg>
+<arg>Te registraste con éxito</arg>
+</arguments>
+<msg timestamp="20201105 03:52:28.383" level="INFO">Verifying element '//p[@class='text-danger']' contains exact text 'Te registraste con éxito'.</msg>
+<status status="PASS" starttime="20201105 03:52:28.383" endtime="20201105 03:52:28.421"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20201105 03:52:31.435" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20201105 03:52:28.421" endtime="20201105 03:52:31.435"></status>
+</kw>
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>JSP Page</arg>
+</arguments>
+<msg timestamp="20201105 03:52:31.445" level="INFO">Page title is 'JSP Page'.</msg>
+<status status="PASS" starttime="20201105 03:52:31.435" endtime="20201105 03:52:31.445"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Registro</arg>
+</arguments>
+<msg timestamp="20201105 03:52:31.465" level="INFO">Current page contains text 'Registro'.</msg>
+<status status="PASS" starttime="20201105 03:52:31.445" endtime="20201105 03:52:31.465"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20201105 03:52:34.475" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20201105 03:52:31.470" endtime="20201105 03:52:34.475"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20201105 03:52:34.475" endtime="20201105 03:52:36.516"></status>
+</kw>
+<status status="PASS" starttime="20201105 03:52:14.515" endtime="20201105 03:52:36.516" critical="yes"></status>
+</test>
+<doc>Hacer un registro llenando todos los campos obligatorios</doc>
+<status status="PASS" starttime="20201105 03:52:14.265" endtime="20201105 03:52:36.530"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="CP001">CP001</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
