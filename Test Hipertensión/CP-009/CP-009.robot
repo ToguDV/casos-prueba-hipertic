@@ -4,7 +4,7 @@ Documentation    Hacer correctamente el test de Hipertension
 Library          Selenium2Library
 
 
-***Test Cases***
+*** Test Cases ***
 
 CP009 Hacer correctamente el test de Hipertension
 

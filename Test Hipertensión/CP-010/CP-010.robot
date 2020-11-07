@@ -4,7 +4,7 @@ Documentation    Hacer el test solo llenando un campo del formulario
 Library          Selenium2Library
 
 
-***Test Cases***
+*** Test Cases ***
 
 CP010 Hacer el test solo llenando un campo del formulario
 

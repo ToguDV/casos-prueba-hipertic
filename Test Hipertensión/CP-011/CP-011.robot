@@ -4,7 +4,7 @@ Documentation     Hacer el test sin llenar ningún campo del formulario
 Library          Selenium2Library
 
 
-***Test Cases***
+*** Test Cases ***
 
 CP011 Hacer el test sin llenar ningún campo del formulario
 
