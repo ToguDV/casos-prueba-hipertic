@@ -12,7 +12,7 @@ CP 012 El administrador registra un usuario (paciente) desde su perfil de admini
     Set Screenshot Directory   Pruebas
     Capture Page Screenshot   Paso1y2.png
     Input Text          xpath=/html/body/div/div/div/div/form/div[2]/input     Admin
-    Input Text          xpath=/html/body/div/div/div/div/form/div[3]/input    1234+1234
+    Input Text          xpath=/html/body/div/div/div/div/form/div[3]/input    123
     Capture Page Screenshot   Paso3.png
     sleep  2s
     Click Element       xpath=/html/body/div/div/div/div/form/div[4]/input

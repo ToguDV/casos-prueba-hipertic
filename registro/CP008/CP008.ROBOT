@@ -9,7 +9,7 @@ CP008 Hacer un inicio de sesión ingresando incorrectamente la contraseña
     Set Screenshot Directory   Pruebas
     sleep  1s
     Capture Page Screenshot   1.png
-    Input Text      xpath=/html/body/div/div/div/div/form/div[2]/input    admin
+    Input Text      xpath=/html/body/div/div/div/div/form/div[2]/input    Admin
     sleep  1s
     Capture Page Screenshot   2.png
     Input Text      xpath=/html/body/div/div/div/div/form/div[3]/input    1234
