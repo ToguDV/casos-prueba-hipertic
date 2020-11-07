@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.0 on win32)" generated="20201107 06:56:34.373" rpa="false">
+<suite id="s1" name="CP009" source="C:\Users\cesar\PycharmProjects\prueba2\TestCases\casos-prueba-hipertic\registro\CP009\CP009.robot">
+<test id="s1-t1" name="CP009 Hacer correctamente el test de Hipertension">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>http://localhost:8080/Crud-java-web-oracle-Cesar/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20201107 06:56:34.743" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/Crud-java-web-oracle-Cesar/'.</msg>
+<status status="PASS" starttime="20201107 06:56:34.743" endtime="20201107 06:56:38.803"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div/div/div/form/div[4]/input</arg>
+</arguments>
+<status status="PASS" starttime="20201107 06:56:38.803" endtime="20201107 06:56:38.853"></status>
+</kw>
+<kw name="Set Screenshot Directory" library="Selenium2Library">
+<doc>Sets the directory for captured screenshots.</doc>
+<arguments>
+<arg>Pruebas</arg>
+</arguments>
+<status status="PASS" starttime="20201107 06:56:38.853" endtime="20201107 06:56:38.853"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>Paso1.png</arg>
+</arguments>
+<msg timestamp="20201107 06:56:39.423" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Pruebas/Paso1.png"&gt;&lt;img src="Pruebas/Paso1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201107 06:56:38.863" endtime="20201107 06:56:39.423"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div/div/div/form/div[2]/input</arg>
+<arg>usuario11</arg>
+</arguments>
+<msg timestamp="20201107 06:56:39.423" level="INFO">Typing text 'usuario11' into text field 'xpath=/html/body/div/div/div/div/form/div[2]/input'.</msg>
+<status status="PASS" starttime="20201107 06:56:39.423" endtime="20201107 06:56:39.553"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div/div/div/form/div[3]/input</arg>
+<arg>1234+1234</arg>
+</arguments>
+<msg timestamp="20201107 06:56:39.553" level="INFO">Typing text '1234+1234' into text field 'xpath=/html/body/div/div/div/div/form/div[3]/input'.</msg>
+<status status="PASS" starttime="20201107 06:56:39.553" endtime="20201107 06:56:39.704"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>Paso2.png</arg>
+</arguments>
+<msg timestamp="20201107 06:56:40.143" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Pruebas/Paso2.png"&gt;&lt;img src="Pruebas/Paso2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201107 06:56:39.704" endtime="20201107 06:56:40.143"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20201107 06:56:42.151" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201107 06:56:40.143" endtime="20201107 06:56:42.151"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div/div/div/form/div[4]/input</arg>
+</arguments>
+<msg timestamp="20201107 06:56:42.151" level="INFO">Clicking element 'xpath=/html/body/div/div/div/div/form/div[4]/input'.</msg>
+<status status="PASS" starttime="20201107 06:56:42.151" endtime="20201107 06:56:42.843"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20201107 06:56:47.858" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20201107 06:56:42.843" endtime="20201107 06:56:47.858"></status>
+</kw>
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>Inicio</arg>
+</arguments>
+<msg timestamp="20201107 06:56:47.866" level="INFO">Page title is 'Inicio'.</msg>
+<status status="PASS" starttime="20201107 06:56:47.858" endtime="20201107 06:56:47.866"></status>
+</kw>
+<kw name="Page Should Contain" library="Selenium2Library">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Test de hipertensión</arg>
+</arguments>
+<msg timestamp="20201107 06:56:47.883" level="INFO">Current page contains text 'Test de hipertensión'.</msg>
+<status status="PASS" starttime="20201107 06:56:47.866" endtime="20201107 06:56:47.883"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="Selenium2Library">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div[1]/div/div[2]/a</arg>
+</arguments>
+<status status="PASS" starttime="20201107 06:56:47.883" endtime="20201107 06:56:47.913"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>Paso3.png</arg>
+</arguments>
+<msg timestamp="20201107 06:56:48.303" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Pruebas/Paso3.png"&gt;&lt;img src="Pruebas/Paso3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201107 06:56:47.923" endtime="20201107 06:56:48.303"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/div[1]/div/div[2]/a</arg>
+</arguments>
+<msg timestamp="20201107 06:56:48.303" level="INFO">Clicking element 'xpath=/html/body/div/div[1]/div/div[2]/a'.</msg>
+<status status="PASS" starttime="20201107 06:56:48.303" endtime="20201107 06:56:48.473"></status>
+</kw>
+<kw name="Title Should Be" library="Selenium2Library">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>JSP Page</arg>
+</arguments>
+<msg timestamp="20201107 06:56:48.483" level="INFO">Page title is 'JSP Page'.</msg>
+<status status="PASS" starttime="20201107 06:56:48.483" endtime="20201107 06:56:48.483"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>Paso4.png</arg>
+</arguments>
+<msg timestamp="20201107 06:56:49.353" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Pruebas/Paso4.png"&gt;&lt;img src="Pruebas/Paso4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201107 06:56:48.483" endtime="20201107 06:56:49.353"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/form/div[1]/label[1]/input</arg>
+</arguments>
+<msg timestamp="20201107 06:56:49.353" level="INFO">Clicking element 'xpath=/html/body/div/form/div[1]/label[1]/input'.</msg>
+<status status="PASS" starttime="20201107 06:56:49.353" endtime="20201107 06:56:49.426"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20201107 06:56:51.428" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201107 06:56:49.426" endtime="20201107 06:56:51.428"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/form/div[1]/label[3]/input</arg>
+</arguments>
+<msg timestamp="20201107 06:56:51.428" level="INFO">Clicking element 'xpath=/html/body/div/form/div[1]/label[3]/input'.</msg>
+<status status="PASS" starttime="20201107 06:56:51.428" endtime="20201107 06:56:51.503"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20201107 06:56:53.524" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201107 06:56:51.503" endtime="20201107 06:56:53.524"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/form/div[1]/label[8]/input</arg>
+</arguments>
+<msg timestamp="20201107 06:56:53.524" level="INFO">Clicking element 'xpath=/html/body/div/form/div[1]/label[8]/input'.</msg>
+<status status="PASS" starttime="20201107 06:56:53.524" endtime="20201107 06:56:53.606"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>Paso5.png</arg>
+</arguments>
+<msg timestamp="20201107 06:56:53.953" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Pruebas/Paso5.png"&gt;&lt;img src="Pruebas/Paso5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201107 06:56:53.606" endtime="20201107 06:56:53.963"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20201107 06:56:55.968" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201107 06:56:53.963" endtime="20201107 06:56:55.968"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/form/div[2]/label[1]/input</arg>
+</arguments>
+<msg timestamp="20201107 06:56:55.968" level="INFO">Clicking element 'xpath=/html/body/div/form/div[2]/label[1]/input'.</msg>
+<status status="PASS" starttime="20201107 06:56:55.968" endtime="20201107 06:56:56.036"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>Paso6.png</arg>
+</arguments>
+<msg timestamp="20201107 06:56:56.397" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Pruebas/Paso6.png"&gt;&lt;img src="Pruebas/Paso6.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201107 06:56:56.036" endtime="20201107 06:56:56.397"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20201107 06:56:58.404" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201107 06:56:56.397" endtime="20201107 06:56:58.404"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/form/div[3]/label[1]/input</arg>
+<arg>50</arg>
+</arguments>
+<msg timestamp="20201107 06:56:58.408" level="INFO">Typing text '50' into text field 'xpath=/html/body/div/form/div[3]/label[1]/input'.</msg>
+<status status="PASS" starttime="20201107 06:56:58.404" endtime="20201107 06:56:58.543"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20201107 06:57:00.554" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20201107 06:56:58.543" endtime="20201107 06:57:00.554"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/form/div[3]/label[2]/input</arg>
+<arg>1,75</arg>
+</arguments>
+<msg timestamp="20201107 06:57:00.554" level="INFO">Typing text '1,75' into text field 'xpath=/html/body/div/form/div[3]/label[2]/input'.</msg>
+<status status="PASS" starttime="20201107 06:57:00.554" endtime="20201107 06:57:00.673"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>Paso7.png</arg>
+</arguments>
+<msg timestamp="20201107 06:57:01.037" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Pruebas/Paso7.png"&gt;&lt;img src="Pruebas/Paso7.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201107 06:57:00.673" endtime="20201107 06:57:01.037"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20201107 06:57:04.053" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20201107 06:57:01.037" endtime="20201107 06:57:04.053"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/div/form/div[4]/input</arg>
+</arguments>
+<msg timestamp="20201107 06:57:04.053" level="INFO">Clicking element 'xpath=/html/body/div/form/div[4]/input'.</msg>
+<status status="PASS" starttime="20201107 06:57:04.053" endtime="20201107 06:57:04.243"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20201107 06:57:09.244" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20201107 06:57:04.243" endtime="20201107 06:57:09.244"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>Paso8.png</arg>
+</arguments>
+<msg timestamp="20201107 06:57:09.628" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Pruebas/Paso8.png"&gt;&lt;img src="Pruebas/Paso8.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20201107 06:57:09.244" endtime="20201107 06:57:09.628"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20201107 06:57:09.628" endtime="20201107 06:57:11.923"></status>
+</kw>
+<status status="PASS" starttime="20201107 06:56:34.738" endtime="20201107 06:57:11.923" critical="yes"></status>
+</test>
+<doc>Hacer correctamente el test de Hipertension</doc>
+<status status="PASS" starttime="20201107 06:56:34.373" endtime="20201107 06:57:11.933"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="CP009">CP009</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
