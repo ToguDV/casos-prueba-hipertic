@@ -26,6 +26,6 @@ CP 014 El administrador elimina un usuario (paciente) desde su perfil de adminis
     Sleep  3s
     Capture Page Screenshot   Paso5.png
     Click Element       xpath=//*[@id="form-list-client-body"]/tr[2]/td[7]/form/input[3]
-    Sleep  3s
+    Sleep  20s
     Capture Page Screenshot   Paso6.png
     Close Browser
