@@ -450,5 +450,180 @@ namespace Casos_prueba_visual
             process = Process.Start(processInfo);
             process.WaitForExit();
         }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo processInfo;
+            Process process;
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/registro/CP001 && robot CP001.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/registro/CP002 && robot CP002.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/registro/CP003 && robot CP003.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/registro/CP004 && robot CP004.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/registro/CP005 && robot CP005.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/registro/CP006 && robot CP006.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/registro/CP007 && robot CP007.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/registro/CP008 && robot CP008.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/registro/CP009 && robot CP009.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo processInfo;
+            Process process;
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/Funciones admin/CP012 && robot CP012.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/Funciones admin/CP013 && robot CP013.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/Funciones admin/CP-014 && robot CP014.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            ProcessStartInfo processInfo;
+            Process process;
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/Test Hipertensión/CP-009 && robot CP-009.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/Test Hipertensión/CP-010 && robot CP-010.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/cesar/PycharmProjects/prueba2/TestCases/casos-prueba-hipertic/Test Hipertensión/CP-011 && robot CP-011.robot");
+            processInfo.CreateNoWindow = false;
+            processInfo.UseShellExecute = false;
+            // *** Redirect the output ***
+            processInfo.RedirectStandardError = false;
+            processInfo.RedirectStandardOutput = false;
+
+            process = Process.Start(processInfo);
+            process.WaitForExit();
+        }
     }
 }
