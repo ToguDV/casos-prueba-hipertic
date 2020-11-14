@@ -1,0 +1,10 @@
+C:\Users\cesar\PycharmProjects\prueba2\TestCases\casos-prueba-hipertic\Visual\Casos prueba visual\bin\Debug\Casos prueba visual.exe.config
+C:\Users\cesar\PycharmProjects\prueba2\TestCases\casos-prueba-hipertic\Visual\Casos prueba visual\bin\Debug\Casos prueba visual.exe
+C:\Users\cesar\PycharmProjects\prueba2\TestCases\casos-prueba-hipertic\Visual\Casos prueba visual\bin\Debug\Casos prueba visual.pdb
+C:\Users\cesar\PycharmProjects\prueba2\TestCases\casos-prueba-hipertic\Visual\Casos prueba visual\obj\Debug\Casos prueba visual.csprojAssemblyReference.cache
+C:\Users\cesar\PycharmProjects\prueba2\TestCases\casos-prueba-hipertic\Visual\Casos prueba visual\obj\Debug\Casos_prueba_visual.Form1.resources
+C:\Users\cesar\PycharmProjects\prueba2\TestCases\casos-prueba-hipertic\Visual\Casos prueba visual\obj\Debug\Casos_prueba_visual.Properties.Resources.resources
+C:\Users\cesar\PycharmProjects\prueba2\TestCases\casos-prueba-hipertic\Visual\Casos prueba visual\obj\Debug\Casos prueba visual.csproj.GenerateResource.cache
+C:\Users\cesar\PycharmProjects\prueba2\TestCases\casos-prueba-hipertic\Visual\Casos prueba visual\obj\Debug\Casos prueba visual.csproj.CoreCompileInputs.cache
+C:\Users\cesar\PycharmProjects\prueba2\TestCases\casos-prueba-hipertic\Visual\Casos prueba visual\obj\Debug\Casos prueba visual.exe
+C:\Users\cesar\PycharmProjects\prueba2\TestCases\casos-prueba-hipertic\Visual\Casos prueba visual\obj\Debug\Casos prueba visual.pdb
