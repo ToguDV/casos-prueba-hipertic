@@ -440,7 +440,7 @@ namespace Casos_prueba_visual
             ProcessStartInfo processInfo;
             Process process;
 
-            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/Usuario/Documents/GitHub/casos-prueba-hipertic/Funciones Admin/CP0-14 && robot CP014.robot");
+            processInfo = new ProcessStartInfo("cmd.exe", "/c " + "cd C:/Users/Usuario/Documents/GitHub/casos-prueba-hipertic/Funciones Admin/CP-014 && robot CP014.robot");
             processInfo.CreateNoWindow = false;
             processInfo.UseShellExecute = false;
             // *** Redirect the output ***
